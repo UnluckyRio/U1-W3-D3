@@ -3,13 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/CSS/style.css" />
+    <title>To-Do List App</title>
+    <link rel="icon" href="/ASSETS/IMG/check-list.png" type="image/png" />
+    <link rel="stylesheet" href="/ASSETS/CSS/style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <div class="container">
+      <div class="todo-app">
+        <h2>
+          To-Do List <img src="/ASSETS/IMG/check-list.png" alt="list icon" />
+        </h2>
+        <div class="form">
+          <input type="text" id="input-box" placeholder="Add your text..." />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li> -->
+        </ul>
+      </div>
+    </div>
     <script src="/SCRIPT/script.js"></script>
   </body>
 </html>
