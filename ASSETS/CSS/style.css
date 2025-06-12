@@ -9,26 +9,11 @@
   height: 100vh;
   padding: 10px;
   background: #d60076;
-  background: -webkit-linear-gradient(
-    200deg,
-    rgba(214, 0, 118, 1) 0%,
-    rgba(38, 0, 127, 1) 80%
-  );
-  background: -moz-linear-gradient(
-    200deg,
-    rgba(214, 0, 118, 1) 0%,
-    rgba(38, 0, 127, 1) 80%
-  );
   background: linear-gradient(
     200deg,
     rgba(214, 0, 118, 1) 0%,
     rgba(38, 0, 127, 1) 80%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(
-  startColorstr="#D60076",
-  endColorstr="#26007F",
-  GradientType=0
-);
 }
 .todo-app {
   width: 100%;
