@@ -8,11 +8,12 @@
   width: 100%;
   height: 100vh;
   padding: 10px;
-  background: #833ab4;
-  background: radial-gradient(
-    circle,
-    rgba(131, 58, 180, 1) 50%,
-    rgba(51, 29, 253, 1) 100%
+  background: #3ab44a;
+  background: linear-gradient(
+    90deg,
+    rgba(58, 180, 74, 1) 0%,
+    rgba(105, 255, 237, 1) 50%,
+    rgba(228, 252, 69, 1) 100%
   );
 }
 .todo-app {
@@ -73,7 +74,7 @@ ul li::before {
   position: absolute;
   height: 25px;
   width: 25px;
-  background-image: url(../ASSETS/IMG/unchecked-box.png);
+  background-image: url(../IMG/unchecked-box.png);
   background-size: cover;
   background-position: center;
   top: 8px;
@@ -84,7 +85,7 @@ ul li.checked {
   text-decoration: line-through;
 }
 ul li.checked::before {
-  background-image: url(../ASSETS/IMG/checked-box.png);
+  background-image: url(../IMG/checked-box.png);
 }
 ul li span {
   position: absolute;
